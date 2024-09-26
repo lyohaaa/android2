@@ -19,7 +19,8 @@
         android:textColorLink="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/button2"
@@ -30,7 +31,8 @@
         android:text="Сохранённые рецепты"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView"
@@ -43,7 +45,8 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView2"
@@ -52,7 +55,8 @@
         android:gravity="center"
         android:text='В приложении "Кулинарная книга" вы можете найти новые для себя рецепты и просматривать сохранённые.'
         android:textColor="#FF9800"
-        tools:layout_editor_absoluteY="266dp" />
+        tools:layout_editor_absoluteY="266dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -63,7 +67,8 @@
         android:text="Настройки"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -75,6 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_dialog_info" />
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

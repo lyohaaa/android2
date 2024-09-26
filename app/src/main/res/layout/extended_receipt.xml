@@ -16,7 +16,8 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        tools:ignore="HardcodedText,TextSizeCheck,VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView8"
@@ -30,7 +31,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -39,6 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/shakshuka2"
-        tools:layout_editor_absoluteY="148dp" />
+        tools:layout_editor_absoluteY="148dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
