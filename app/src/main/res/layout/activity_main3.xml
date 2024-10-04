@@ -2,9 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2B2B2B">
+    android:background="#2B2B2B"
+    android:backgroundTint="#2B2B2B"
+    tools:context=".MainActivity3">
 
     <TextView
         android:id="@+id/textView16"
@@ -42,8 +45,8 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
-        tools:layout_editor_absoluteY="400dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="400dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -81,8 +84,8 @@
         app:layout_constraintEnd_toEndOf="@+id/textView7"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="@+id/textView7"
-        tools:layout_editor_absoluteY="426dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="426dp" />
 
     <TextView
         android:id="@+id/textView14"
@@ -105,8 +108,8 @@
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/textView11"
         app:layout_constraintStart_toStartOf="@+id/textView11"
-        tools:layout_editor_absoluteY="426dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="426dp" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -115,8 +118,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/omlet"
-        tools:layout_editor_absoluteY="205dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteY="205dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -127,8 +130,8 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
-        tools:layout_editor_absoluteY="400dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="400dp" />
 
     <TextView
         android:id="@+id/textView13"
@@ -148,26 +151,25 @@
         android:layout_width="170dp"
         android:layout_height="175dp"
         app:srcCompat="@drawable/shakshuka"
+        tools:ignore="ContentDescription,MissingConstraints"
         tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="205dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        tools:layout_editor_absoluteY="205dp" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="170dp"
         android:layout_height="175dp"
         app:srcCompat="@drawable/macaroni"
+        tools:ignore="ContentDescription,MissingConstraints"
         tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="535dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        tools:layout_editor_absoluteY="535dp" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="170dp"
         android:layout_height="175dp"
         app:srcCompat="@drawable/kartoshka"
+        tools:ignore="ContentDescription,MissingConstraints"
         tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="535dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
-
+        tools:layout_editor_absoluteY="535dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
