@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, MainActivity4.class);
         startActivity(intent);
     }
-    public void Navigate2(View v){
+    public void Navigate2(View v2){
         Toast.makeText(MainActivity.this, "Уведомление", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, MainActivity2.class);
         startActivity(intent);

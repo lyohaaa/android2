@@ -24,7 +24,7 @@ public class MainActivity4 extends AppCompatActivity {
             return insets;
         });
     }
-    public void Navigate3(View v){
+    public void Navigate3(View v3){
         Toast.makeText(MainActivity4.this, "Уведомление", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity4.this, MainActivity3.class);
         startActivity(intent);
