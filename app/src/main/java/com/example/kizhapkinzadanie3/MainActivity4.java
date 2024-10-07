@@ -1,6 +1,9 @@
 package com.example.kizhapkinzadanie3;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,10 @@ public class MainActivity4 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    public void Navigate3(View v){
+        Toast.makeText(MainActivity4.this, "Уведомление", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity4.this, MainActivity3.class);
+        startActivity(intent);
     }
 }

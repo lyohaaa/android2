@@ -25,8 +25,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void Navigate(View v){
-        Toast.makeText(MainActivity.this, "Уведомление", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Переход", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, MainActivity4.class);
+        startActivity(intent);
+    }
+    public void Navigate2(View v){
+        Toast.makeText(MainActivity.this, "Уведомление", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
         startActivity(intent);
     }
 }
