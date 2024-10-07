@@ -58,8 +58,10 @@
         android:gravity="center"
         android:text='В приложении "Кулинарная книга" вы можете найти новые для себя рецепты и просматривать сохранённые.'
         android:textColor="#FF9800"
-        tools:layout_editor_absoluteY="266dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="266dp" />
 
     <Button
         android:id="@+id/button3"

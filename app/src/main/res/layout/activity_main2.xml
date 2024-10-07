@@ -16,11 +16,11 @@
         android:text="\nЯйцо - 3 шт. \nПомидоры - 300 г; \nПерец красный сладкий - 1/2 шт; \nЛук репчатый - 100 г; \nПерец чили - 1 шт; \nЧеснок - 10 г; \nМякоть томатов (протёртая) - 200 мл; \nПаприка сладкая молотая - 1 ст. ложка; \nСоль - 1/2 ч. ложки; \nПерец чёрный молотый - 1/2 ч. ложки; \nСахар - 1 ст. ложка; \nМасло растительное - 1 ст. ложка; \nПетрушка свежая - 5 г."
         android:textColor="#FF9100"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintBounds,VisualLintOverlap"
-        tools:layout_editor_absoluteY="297dp" />
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintBounds,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/textView20"
@@ -30,10 +30,10 @@
         android:text="\n1. Помидоры нарезать кубиками. \n2.  Сладкий перец нарезать тонкой соломкой \n3. Лук нарезать таким же способом \n4. Чеснок нарезать мелкими кубиками, красный перец чили - тонкими кольцами \n5. На разогретую сковороду налить растительное масло. Обжарить чеснок и перец чили в течение 30 секунд \n6. Добавить нарезанные помидоры, лук, болгарский перец и жарить 2 минуты на среднем огне. \n7. Добавить протёртую мякоть томатов и перемешать. Тушить на слабом огне 10 минут. \n8. Добавить все специи и перемешать. Готовить ещё 3 минуты на среднем огне. \n9. Столовой ложкой или лопаткой развдинуть тушеные овощи и влить куриные яйца. \n10. Продолжать жарить на небольшом огне примерно 4 минуты. \nГотово!"
         android:textColor="#FF9100"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintBounds,VisualLintOverlap"
-        tools:layout_editor_absoluteY="524dp" />
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintBounds,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/textView19"
@@ -90,11 +90,11 @@
         tools:ignore="ContentDescription,MissingConstraints" />
 
     <ScrollView
-        android:layout_width="406dp"
-        android:layout_height="694dp"
+        android:layout_width="408dp"
+        android:layout_height="688dp"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="204dp">
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="208dp">
 
         <LinearLayout
             android:layout_width="match_parent"
